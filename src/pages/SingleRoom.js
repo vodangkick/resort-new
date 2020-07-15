@@ -36,7 +36,7 @@ export default class SingleRoom extends Component {
             </div>
         }
         const { name, price, description, capacity, size, extras, breakfast, pets, images } = room;
-        const [mainImg, ...defaultImg] = images;
+        const [defaultImg] = images;
         return (
             <div>
                 <StyledHero img={images[0] || this.state.defaultBcg}>
