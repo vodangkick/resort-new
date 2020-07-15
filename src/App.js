@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import 'jquery';
 
 import Home from "./pages/Home";
 import Rooms from "./pages/Rooms";
