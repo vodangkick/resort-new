@@ -2,7 +2,7 @@
   "name": "resort",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vodangkick.github.io/resort-new/",
+  "homepage": "https://vodangkick.github.io/dog-cat-deme/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -15,7 +15,8 @@
     "react-icons": "^3.10.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "yarn": "^1.22.4"
   },
   "scripts": {
     "start": "react-scripts start",
