@@ -15,6 +15,7 @@ function App() {
       <NavBar />
       <Switch>
         <Route path="/" exact component={Home} />
+        test
         <Route path="/rooms" exact component={Rooms} />
         <Route path="/rooms/:slug" exact component={SingleRoom} />
         <Route component={Error} />
