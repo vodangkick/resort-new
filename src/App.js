@@ -12,14 +12,7 @@ import NavBar from './components/NavBar';
 function App() {
   return (
     <>
-      <NavBar />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        testgit
-        <Route path="/rooms" exact component={Rooms} />
-        <Route path="/rooms/:slug" exact component={SingleRoom} />
-        <Route component={Error} />
-      </Switch>
+      sang
     </>
   );
 }
