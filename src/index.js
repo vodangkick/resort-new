@@ -8,7 +8,7 @@ import { RoomProvider } from './Context';
 
 ReactDOM.render(
   <RoomProvider>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <App />
     </Router>
   </RoomProvider>,
